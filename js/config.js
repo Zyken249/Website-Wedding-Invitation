@@ -35,16 +35,16 @@ const APP_CONFIG = {
     playlist: [
       {
         id: "song-1",
-        title: "Romantic Wedding Piano",
+        title: "Weding - Wedding Music",
         artist: "Instrumental Acoustic",
         // File audio royalty-free kualitas tinggi
-        src: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-wedding-piano-112191.mp3",
+        src: "Asset/paulyudin-wedding-wedding-music-574002.mp3",
       },
       {
         id: "song-2",
-        title: "A Thousand Years (Piano Cello)",
+        title: "Green Fields",
         artist: "The Piano Guys Style",
-        src: "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3?filename=piano-moment-9835.mp3",
+        src: "Asset/leberch-green-fields-wedding-594956.mp3",
       },
       {
         id: "song-3",
