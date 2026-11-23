@@ -17,8 +17,8 @@ const APP_CONFIG = {
   // Project Settings -> API -> Project URL & Project API Keys (anon public)
   supabase: {
     enabled: true, // Ubah ke false jika hanya ingin memakai localStorage
-    url: "https://xyzcompany.supabase.co", // Ganti dengan Supabase Project URL Anda
-    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", // Ganti dengan anon public key Anda
+    url: "https://wqdrzonfwckmvdfiuxpj.supabase.co", // Ganti dengan Supabase Project URL Anda
+    anonKey: "e6614b5d-12ed-4d7b-9805-7a177b4e8659", // Ganti dengan anon public key Anda
     tables: {
       guests: "guests", // Tabel data tamu undangan
       rsvps: "rsvps",   // Tabel konfirmasi kehadiran & ucapan
@@ -82,14 +82,14 @@ const APP_CONFIG = {
     },
     // Target Waktu untuk Countdown (Tahun, Bulan-1, Tanggal, Jam, Menit)
     // Format ISO: YYYY-MM-DDTHH:MM:SS
-    targetDate: "2026-12-31T09:00:00",
+    targetDate: "2026-12-24T09:00:00",
     timeZone: "WIB",
 
     // Sesi Acara
     schedule: [
       {
         name: "Akad Nikah",
-        dateText: "Kamis, 31 Desember 2026",
+        dateText: "Kamis, 24 Desember 2026",
         timeText: "09.00 - 11.00 WIB",
         venue: "Grand Ballroom Hotel Mulia Senayan",
         address: "Jl. Asia Afrika No. 6, Gelora, Tanah Abang, Jakarta Pusat",
@@ -97,8 +97,8 @@ const APP_CONFIG = {
       },
       {
         name: "Resepsi Pernikahan",
-        dateText: "Kamis, 31 Desember 2026",
-        timeText: "11.30 - 14.30 WIB",
+        dateText: "Kamis, 24 Desember 2026",
+        timeText: "11.00 - 14.30 WIB",
         venue: "Grand Ballroom Hotel Mulia Senayan",
         address: "Jl. Asia Afrika No. 6, Gelora, Tanah Abang, Jakarta Pusat",
         icon: "bi-gem",
